@@ -1,0 +1,235 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+/*
+#cursor{
+    height: 25px;
+    width: 25px;
+    background-color: #95C11E;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    
+
+}
+#cursorblur{
+    height: 200px;
+    width: 200px;
+    background-color: #96c11eb4;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9;    
+    filter: blur(80px);
+   
+
+}
+*/
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+#page1{
+    height: 100vh;
+    padding: 2vh 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+    
+}
+#welcome{
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#welcome h1{
+    font-size: 14vh;
+    font-weight: 600;
+}
+#team{ 
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#team h1{
+    font-size: 14vh;
+    font-weight: 600;
+    opacity: 0;
+}
+#proj{
+    height: 18vh;
+    padding: 0vh 21vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+#proj h1{
+    font-size: 7vh;
+    font-weight: 250;
+    opacity: 0;
+    
+}
+#box{
+    height: 48vh;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#box1{
+    height: 44vh;
+    width: 44vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box1 img{
+    height: 42vh;
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+#box2{
+    height: 44vh;
+    width: 44vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#box2 p{
+    font-size: 2.5vh;
+    font-weight: 400;
+    color: rgba(175, 238, 238, 0.847) ;
+    opacity: 0;
+}
+
+#page2{
+    height: 100vh;
+    padding: 10vh 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+   
+}
+#page2 #box1{
+    height: 70vh;
+    width: 70vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#page2 #box1 h1{
+    font-size: 4vh;
+    font-weight: 300;
+}
+#page2 #box1 p{
+    font-size: 2.5vh;
+    font-weight: 300;
+    opacity: 1;
+    transition: all linear 0.3s;
+}
+
+#page2 #box2{
+    height: 70vh;
+    width: 70vh;
+    padding: 2.5vh 2.5vh;
+    
+}
+video{
+    height: 65vh;
+    width: 65vh;
+    
+}
+
+#page3{
+    height: 100vh;
+    padding: 2vh 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    position: relative;
+   
+}
+#abouteam{
+    height: 8vh;
+    width: 100%;
+    border-bottom: 2px solid whitesmoke;
+    display: flex;
+    
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+
+}
+#abouteam h1{
+    font-size: 6vh;
+    font-weight: 500;
+}
+#elem{
+    height: 18vh;
+    width: 100%;
+    border-bottom: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    position: relative;
+    
+}
+#elem h1{
+    font-size: 3.5vh;
+    position: relative;
+    z-index: 9;
+    mix-blend-mode: difference; 
+}
+#elem h2{
+    font-size: 3.5vh;
+    position: relative;
+    z-index: 9;
+    mix-blend-mode: difference; 
+}
+#elem img{
+    height: 15vh;
+    width: 15vh;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+    transition: all linear 0.15s;
+}
+#elem a{
+    color: rgba(255, 0, 0, 0.725);
+}
+#elem h2{
+    color: rgba(255, 0, 0, 0.725);
+}
+#page4{
+    height: 100vh;
+    padding: 2vh 2vh;
+    
+    
+}
