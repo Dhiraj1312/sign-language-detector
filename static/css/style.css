@@ -230,6 +230,14 @@ video{
 #page4{
     height: 100vh;
     padding: 2vh 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-    
+}
+#page4 button{
+    height: 12vh;
+    width: 20vw;
+    background-color: pink;
+    color: white;
 }
